@@ -131,8 +131,8 @@ print()
 
 while True:
     #   Arrow
-    animate([0, 1, 2], [G1+G2])
-    animate([3], [G1+H+K])
+    animate([0, 1, 2], [G1+G2], 0.1)
+    animate([3], [G1+H+K], 0.1)
     sleep(1.5)
     display.fill(0)
     sleep(1.5)
